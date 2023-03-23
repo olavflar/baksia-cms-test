@@ -2,12 +2,10 @@ publish_mode: editorial_workflow
 
 backend:
   name: github
-  branch: main # Branch to update (optional; defaults to master)
+  branch: main 
   repo: olavflar/baksia-cms-test
 
-
-
-  local_backend: true
+local_backend: true
 
   i18n:
   structure: multiple_files
